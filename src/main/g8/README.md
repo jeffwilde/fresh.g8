@@ -1,6 +1,6 @@
 # $title$ #
 
-Welcome to $artifact$!
+$description$
 
 ## Contribution policy ##
 
