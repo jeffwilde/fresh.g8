@@ -1,4 +1,4 @@
-# $artifact$ #
+# $title$ #
 
 Welcome to $artifact$!
 
