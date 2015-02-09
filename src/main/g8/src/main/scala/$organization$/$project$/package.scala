@@ -16,19 +16,19 @@
 
 package $organization$
 
-package object $project$ {
+package object $artifact$ {
 
   // format: OFF
-  private[$project$] val Traversable = scala.collection.immutable.Traversable
-  private[$project$] type Traversable[+A] = scala.collection.immutable.Traversable[A]
+  private[$artifact$] val Traversable = scala.collection.immutable.Traversable
+  private[$artifact$] type Traversable[+A] = scala.collection.immutable.Traversable[A]
 
-  private[$project$] val Iterable = scala.collection.immutable.Iterable
-  private[$project$] type Iterable[+A] = scala.collection.immutable.Iterable[A]
+  private[$artifact$] val Iterable = scala.collection.immutable.Iterable
+  private[$artifact$] type Iterable[+A] = scala.collection.immutable.Iterable[A]
 
-  private[$project$] val Seq = scala.collection.immutable.Seq
-  private[$project$] type Seq[+A] = scala.collection.immutable.Seq[A]
+  private[$artifact$] val Seq = scala.collection.immutable.Seq
+  private[$artifact$] type Seq[+A] = scala.collection.immutable.Seq[A]
 
-  private[$project$] val IndexedSeq = scala.collection.immutable.IndexedSeq
-  private[$project$] type IndexedSeq[+A] = scala.collection.immutable.IndexedSeq[A]
+  private[$artifact$] val IndexedSeq = scala.collection.immutable.IndexedSeq
+  private[$artifact$] type IndexedSeq[+A] = scala.collection.immutable.IndexedSeq[A]
   // format: ON
 }

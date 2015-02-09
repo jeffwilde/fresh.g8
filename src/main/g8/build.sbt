@@ -1,8 +1,8 @@
-lazy val $project$ = project.in(file("."))
+lazy val $artifact$ = project.in(file("."))
 
-name := "$project$"
+name := "$artifact$"
 
 libraryDependencies ++= List(
 )
 
-initialCommands := """|import $organization$.$project$._""".stripMargin
+initialCommands := """|import $organization$.$artifact$._""".stripMargin

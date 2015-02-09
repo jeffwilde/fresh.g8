@@ -1,6 +1,6 @@
-# $project$ #
+# $artifact$ #
 
-Welcome to $project$!
+Welcome to $artifact$!
 
 ## Contribution policy ##
 
