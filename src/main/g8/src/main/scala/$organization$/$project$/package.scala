@@ -16,19 +16,19 @@
 
 package $organization$
 
-package object $artifact$ {
+package object $name;format="lower,word-only"$ {
 
   // format: OFF
-  private[$artifact$] val Traversable = scala.collection.immutable.Traversable
-  private[$artifact$] type Traversable[+A] = scala.collection.immutable.Traversable[A]
+  private[$name;format="lower,word-only"$] val Traversable = scala.collection.immutable.Traversable
+  private[$name;format="lower,word-only"$] type Traversable[+A] = scala.collection.immutable.Traversable[A]
 
-  private[$artifact$] val Iterable = scala.collection.immutable.Iterable
-  private[$artifact$] type Iterable[+A] = scala.collection.immutable.Iterable[A]
+  private[$name;format="lower,word-only"$] val Iterable = scala.collection.immutable.Iterable
+  private[$name;format="lower,word-only"$] type Iterable[+A] = scala.collection.immutable.Iterable[A]
 
-  private[$artifact$] val Seq = scala.collection.immutable.Seq
-  private[$artifact$] type Seq[+A] = scala.collection.immutable.Seq[A]
+  private[$name;format="lower,word-only"$] val Seq = scala.collection.immutable.Seq
+  private[$name;format="lower,word-only"$] type Seq[+A] = scala.collection.immutable.Seq[A]
 
-  private[$artifact$] val IndexedSeq = scala.collection.immutable.IndexedSeq
-  private[$artifact$] type IndexedSeq[+A] = scala.collection.immutable.IndexedSeq[A]
+  private[$name;format="lower,word-only"$] val IndexedSeq = scala.collection.immutable.IndexedSeq
+  private[$name;format="lower,word-only"$] type IndexedSeq[+A] = scala.collection.immutable.IndexedSeq[A]
   // format: ON
 }

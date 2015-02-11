@@ -13,10 +13,9 @@ There are some properties that need to be specified (most can be left default)
 
 | property | what it does
 |---       |---
-| title | A title for the project's README
+| name | A title for the project. Used verbatim for the README, lowercased and stripped of special characters for the project's main package name
 | description | A description for the project's README
 | organization | Basis for the containing package name
-| artifact | Project artifact and package name
 
 After g8 has finished:
 
